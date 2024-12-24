@@ -1,0 +1,131 @@
+                {
+                    "type": "TableRow",
+                    "cells": [
+                        {
+                            "type": "TableCell",
+                            "items": [
+								{
+                                    "type": "TextBlock",
+                                    "text": "@{if(equals(item()?[0],null),'',item()?[0])}",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "Input.Toggle",
+                                    "title": "",
+                                    "isVisible": "@{if(equals(item()?[0],null),false,true)}",
+                                    "id": "@{if(equals(item()?[0],null),guid(),concat('OData__x0044_ay',string(item()?[0])))}"
+                                }
+
+                            ]
+                        },
+                        {
+                            "type": "TableCell",
+                            "items": [
+							    {
+                                    "type": "TextBlock",
+                                    "text": "@{if(equals(item()?[1],null),'',item()?[1])}",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "Input.Toggle",
+                                    "title": "",
+                                    "isVisible": "@{if(equals(item()?[1],null),false,true)}",
+                                    "id": "@{if(equals(item()?[1],null),guid(),concat('OData__x0044_ay',string(item()?[1])))}"
+                                }
+
+                            ]
+                        },
+                        {
+                            "type": "TableCell",
+                            "items": [
+							    {
+                                    "type": "TextBlock",
+                                    "text": "@{if(equals(item()?[2],null),'',item()?[2])}",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "Input.Toggle",
+                                    "title": "",
+                                    "isVisible": "@{if(equals(item()?[2],null),false,true)}",
+                                    "id": "@{if(equals(item()?[2],null),guid(),concat('OData__x0044_ay',string(item()?[2])))}"
+                                }
+
+                            ]
+                        },
+                        {
+                            "type": "TableCell",
+                            "items": [
+							    {
+                                    "type": "TextBlock",
+                                    "text": "@{if(equals(item()?[3],null),'',item()?[3])}",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "Input.Toggle",
+                                    "title": "",
+                                    "isVisible": "@{if(equals(item()?[3],null),false,true)}",
+                                    "id": "@{if(equals(item()?[3],null),guid(),concat('OData__x0044_ay',string(item()?[3])))}"
+                                }
+
+                            ]
+                        },
+                        {
+                            "type": "TableCell",
+                            "items": [
+							    {
+                                    "type": "TextBlock",
+                                    "text": "@{if(equals(item()?[4],null),'',item()?[4])}",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "Input.Toggle",
+                                    "title": "",
+                                    "isVisible": "@{if(equals(item()?[4],null),false,true)}",
+                                    "id": "@{if(equals(item()?[4],null),guid(),concat('OData__x0044_ay',string(item()?[4])))}"
+                                }
+
+                            ]
+                        },
+                        {
+                            "type": "TableCell",
+                            "items": [
+							    {
+                                    "type": "TextBlock",
+                                    "text": "@{if(equals(item()?[5],null),'',item()?[5])}",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "Input.Toggle",
+                                    "title": "",
+                                    "isVisible": "@{if(equals(item()?[5],null),false,true)}",
+                                    "id": "@{if(equals(item()?[5],null),guid(),concat('OData__x0044_ay',string(item()?[5])))}"
+                                }
+
+                            ]
+                        },
+                        {
+                            "type": "TableCell",
+                            "items": [
+								{
+                                    "type": "TextBlock",
+                                    "text": "@{if(equals(item()?[6],null),'',item()?[6])}",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "Input.Toggle",
+                                    "title": "",
+                                    "isVisible": "@{if(equals(item()?[6],null),false,true)}",
+                                    "id": "@{if(equals(item()?[6],null),guid(),concat('OData__x0044_ay',string(item()?[6])))}"
+                                }
+
+                            ]
+                        }
+                    ]
+                }

@@ -1,0 +1,139 @@
+                {
+                    "type": "TableRow",
+                    "cells": [
+                        {
+                            "type": "TableCell",
+                            "items": [
+							    {
+                                    "type": "TextBlock",
+                                    "text": "@{if(equals(item()?[0],null),'',item()?[0])}",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "Input.Toggle",
+                                    "title": "\n",
+                                    "isVisible": "@{if(and(not(equals(item()?[0],null)),not(or(equals(formatDateTime(concat(triggerBody()['number_1'],'-',triggerBody()['number'],'-',item()?[0]),'ddd'),'Sat'),equals(formatDateTime(concat(triggerBody()['number_1'],'-',triggerBody()['number'],'-',item()?[0]),'ddd'),'Sun')))),true,false)}",
+                                    "id": "@{if(equals(item()?[0],null),guid(),concat('OData__x0044_ay',string(item()?[0])))}",
+									"wrap":"true"
+                                }
+                                
+                            ]
+                        },
+                        {
+                            "type": "TableCell",
+                            "items": [
+							    {
+                                    "type": "TextBlock",
+                                    "text": "@{if(equals(item()?[1],null),'',item()?[1])}",
+                                    "wrap": true,
+                                    "weight": "Bolder",
+									"wrap":"true"
+                                },
+                                {
+                                    "type": "Input.Toggle",
+                                    "title": "\n",
+                                    "isVisible": "@{if(and(not(equals(item()?[1],null)),not(or(equals(formatDateTime(concat(triggerBody()['number_1'],'-',triggerBody()['number'],'-',item()?[1]),'ddd'),'Sat'),equals(formatDateTime(concat(triggerBody()['number_1'],'-',triggerBody()['number'],'-',item()?[1]),'ddd'),'Sun')))),true,false)}",
+                                    "id": "@{if(equals(item()?[1],null),guid(),concat('OData__x0044_ay',string(item()?[1])))}",
+									"wrap":"true"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableCell",
+                            "items": [
+							    {
+                                    "type": "TextBlock",
+                                    "text": "@{if(equals(item()?[2],null),'',item()?[2])}",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "Input.Toggle",
+                                    "title": "\n",
+                                    "isVisible": "@{if(and(not(equals(item()?[2],null)),not(or(equals(formatDateTime(concat(triggerBody()['number_1'],'-',triggerBody()['number'],'-',item()?[2]),'ddd'),'Sat'),equals(formatDateTime(concat(triggerBody()['number_1'],'-',triggerBody()['number'],'-',item()?[2]),'ddd'),'Sun')))),true,false)}",
+                                    "id": "@{if(equals(item()?[2],null),guid(),concat('OData__x0044_ay',string(item()?[2])))}",
+									"wrap":"true"
+                                }
+
+                            ]
+                        },
+                        {
+                            "type": "TableCell",
+                            "items": [
+							    {
+                                    "type": "TextBlock",
+                                    "text": "@{if(equals(item()?[3],null),'',item()?[3])}",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "Input.Toggle",
+                                    "title": "\n",
+                                    "isVisible": "@{if(and(not(equals(item()?[3],null)),not(or(equals(formatDateTime(concat(triggerBody()['number_1'],'-',triggerBody()['number'],'-',item()?[3]),'ddd'),'Sat'),equals(formatDateTime(concat(triggerBody()['number_1'],'-',triggerBody()['number'],'-',item()?[3]),'ddd'),'Sun')))),true,false)}",
+                                    "id": "@{if(equals(item()?[3],null),guid(),concat('OData__x0044_ay',string(item()?[3])))}",
+									"wrap":"true"
+                                }
+
+                            ]
+                        },
+                        {
+                            "type": "TableCell",
+                            "items": [
+							    {
+                                    "type": "TextBlock",
+                                    "text": "@{if(equals(item()?[4],null),'',item()?[4])}",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "Input.Toggle",
+                                    "title": "\n",
+                                    "isVisible": "@{if(and(not(equals(item()?[4],null)),not(or(equals(formatDateTime(concat(triggerBody()['number_1'],'-',triggerBody()['number'],'-',item()?[4]),'ddd'),'Sat'),equals(formatDateTime(concat(triggerBody()['number_1'],'-',triggerBody()['number'],'-',item()?[4]),'ddd'),'Sun')))),true,false)}",
+                                    "id": "@{if(equals(item()?[4],null),guid(),concat('OData__x0044_ay',string(item()?[4])))}",
+									"wrap":"true"								
+								
+                                }
+
+                            ]
+                        },
+                        {
+                            "type": "TableCell",
+                            "items": [
+								{
+                                    "type": "TextBlock",
+                                    "text": "@{if(equals(item()?[5],null),'',item()?[5])}",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "Input.Toggle",
+                                    "title": "\n",
+                                    "isVisible": "@{if(and(not(equals(item()?[5],null)),not(or(equals(formatDateTime(concat(triggerBody()['number_1'],'-',triggerBody()['number'],'-',item()?[5]),'ddd'),'Sat'),equals(formatDateTime(concat(triggerBody()['number_1'],'-',triggerBody()['number'],'-',item()?[5]),'ddd'),'Sun')))),true,false)}",
+                                    "id": "@{if(equals(item()?[5],null),guid(),concat('OData__x0044_ay',string(item()?[5])))}",
+									"wrap":"true"
+                                }
+
+                            ]
+                        },
+                        {
+                            "type": "TableCell",
+                            "items": [
+								{
+                                    "type": "TextBlock",
+                                    "text": "@{if(equals(item()?[6],null),'',item()?[6])}",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "Input.Toggle",
+                                    "title": "\n",
+                                    "isVisible": "@{if(and(not(equals(item()?[6],null)),not(or(equals(formatDateTime(concat(triggerBody()['number_1'],'-',triggerBody()['number'],'-',item()?[6]),'ddd'),'Sat'),equals(formatDateTime(concat(triggerBody()['number_1'],'-',triggerBody()['number'],'-',item()?[6]),'ddd'),'Sun')))),true,false)}",
+                                    "id": "@{if(equals(item()?[6],null),guid(),concat('OData__x0044_ay',string(item()?[6])))}",
+									"wrap":"true"
+                                }
+
+                            ]
+                        }
+                    ]
+                }

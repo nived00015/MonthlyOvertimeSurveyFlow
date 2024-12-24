@@ -1,0 +1,50 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Hi @{items('Apply_to_each_-_employee')?['Employee/DisplayName']},\n\nPlease select the days you have planned to work overtime for @{outputs('Compose_Month_Year_format')}",
+            "wrap": true,
+            "horizontalAlignment": "Left",
+            "weight": "Bolder"
+        },
+        {
+            "type": "Table",
+            "columns": [
+                {
+                    "width": 50
+                },
+                {
+                    "width": 50
+                },
+                {
+                    "width": 50
+                },
+                {
+                    "width": 50
+                },
+                {
+                    "width": 50
+                },
+                {
+                    "width": 50
+                },
+                {
+                    "width": 50
+                }
+            ],
+            "rows": [
+@{join(body('Select_-_Constructing_the_adaptive_card_calendar'),',')}
+            ],
+            "firstRowAsHeaders": false
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "Submit"
+        }
+    ]
+}
